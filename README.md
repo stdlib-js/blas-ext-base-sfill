@@ -20,7 +20,7 @@ limitations under the License.
 
 # sfill
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Fill a single-precision floating-point strided array with a specified scalar constant.
 
@@ -181,8 +181,8 @@ console.log( x );
 
 ## See Also
 
--   [`@stdlib/blas/ext/base/dfill`][@stdlib/blas/ext/base/dfill]: fill a double-precision floating-point strided array with a specified scalar constant.
--   [`@stdlib/blas/ext/base/gfill`][@stdlib/blas/ext/base/gfill]: fill a strided array with a specified scalar constant.
+-   <span class="package-name">[`@stdlib/blas/ext/base/dfill`][@stdlib/blas/ext/base/dfill]</span><span class="delimiter">: </span><span class="description">fill a double-precision floating-point strided array with a specified scalar constant.</span>
+-   <span class="package-name">[`@stdlib/blas/ext/base/gfill`][@stdlib/blas/ext/base/gfill]</span><span class="delimiter">: </span><span class="description">fill a strided array with a specified scalar constant.</span>
 
 </section>
 
@@ -233,8 +233,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-ext-base-sfill/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas-ext-base-sfill?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/blas-ext-base-sfill.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/blas-ext-base-sfill/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
