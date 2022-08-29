@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@esm/index.mjs';
+import sfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@v0.0.11-esm/index.mjs';
 ```
 
 #### sfill( N, alpha, x, stride )
@@ -142,7 +142,7 @@ sfill.ndarray( 3, 5.0, x, 1, x.length-3 );
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import sfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@esm/index.mjs';
+import sfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@v0.0.11-esm/index.mjs';
 
 var rand;
 var sign;
