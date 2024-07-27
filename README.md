@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-sfill/tags). For example,
+
+```javascript
 import sfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@v0.2.2-esm/index.mjs';
 ```
 
@@ -148,7 +153,7 @@ sfill.ndarray( 3, 5.0, x, 1, x.length-3 );
 
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import sfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@v0.2.2-esm/index.mjs';
+import sfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@esm/index.mjs';
 
 var rand = discreteUniform( -100, 100 );
 
