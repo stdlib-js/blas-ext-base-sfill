@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-17)
+## Unreleased (2024-09-18)
+
+<section class="features">
+
+### Features
+
+-   [`fd41e1b`](https://github.com/stdlib-js/stdlib/commit/fd41e1bd1dc6b7c351702bdbf95978b343215b0b) - add C `ndarray` API to `blas/ext/base/sfill` [(#2923)](https://github.com/stdlib-js/stdlib/pull/2923)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`fd41e1b`](https://github.com/stdlib-js/stdlib/commit/fd41e1bd1dc6b7c351702bdbf95978b343215b0b) - **feat:** add C `ndarray` API to `blas/ext/base/sfill` [(#2923)](https://github.com/stdlib-js/stdlib/pull/2923) _(by Muhammad Haris, Athan Reines)_
 -   [`d9580f5`](https://github.com/stdlib-js/stdlib/commit/d9580f56677f81425930dad6a0ed65c71f665314) - **refactor:** reduce code duplication in `blas/ext/base/sfill` [(#2916)](https://github.com/stdlib-js/stdlib/pull/2916) _(by Muhammad Haris)_
 -   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
