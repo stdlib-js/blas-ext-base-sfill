@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-18)
+## Unreleased (2024-09-24)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`9d55639`](https://github.com/stdlib-js/stdlib/commit/9d55639aa76472d280ee6c613cd338ee16552cd6) - update C function names in `blas/ext/base/sfill` to prevent name collisions [(#2945)](https://github.com/stdlib-js/stdlib/pull/2945)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`9d55639`](https://github.com/stdlib-js/stdlib/commit/9d55639aa76472d280ee6c613cd338ee16552cd6) - **fix:** update C function names in `blas/ext/base/sfill` to prevent name collisions [(#2945)](https://github.com/stdlib-js/stdlib/pull/2945) _(by Muhammad Haris)_
 -   [`fd41e1b`](https://github.com/stdlib-js/stdlib/commit/fd41e1bd1dc6b7c351702bdbf95978b343215b0b) - **feat:** add C `ndarray` API to `blas/ext/base/sfill` [(#2923)](https://github.com/stdlib-js/stdlib/pull/2923) _(by Muhammad Haris, Athan Reines)_
 -   [`d9580f5`](https://github.com/stdlib-js/stdlib/commit/d9580f56677f81425930dad6a0ed65c71f665314) - **refactor:** reduce code duplication in `blas/ext/base/sfill` [(#2916)](https://github.com/stdlib-js/stdlib/pull/2916) _(by Muhammad Haris)_
 -   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
