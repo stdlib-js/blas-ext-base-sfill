@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f446206`](https://github.com/stdlib-js/stdlib/commit/f4462062a216ceb2131121cbb299525b6b3b17ff) - add C `ndarray` API and refactor `blas/ext/base/zfill` [(#2962)](https://github.com/stdlib-js/stdlib/pull/2962)
 -   [`fd41e1b`](https://github.com/stdlib-js/stdlib/commit/fd41e1bd1dc6b7c351702bdbf95978b343215b0b) - add C `ndarray` API to `blas/ext/base/sfill` [(#2923)](https://github.com/stdlib-js/stdlib/pull/2923)
 
 </section>
@@ -32,6 +33,7 @@
 
 <details>
 
+-   [`f446206`](https://github.com/stdlib-js/stdlib/commit/f4462062a216ceb2131121cbb299525b6b3b17ff) - **feat:** add C `ndarray` API and refactor `blas/ext/base/zfill` [(#2962)](https://github.com/stdlib-js/stdlib/pull/2962) _(by Muhammad Haris, Athan Reines)_
 -   [`9d55639`](https://github.com/stdlib-js/stdlib/commit/9d55639aa76472d280ee6c613cd338ee16552cd6) - **fix:** update C function names in `blas/ext/base/sfill` to prevent name collisions [(#2945)](https://github.com/stdlib-js/stdlib/pull/2945) _(by Muhammad Haris)_
 -   [`fd41e1b`](https://github.com/stdlib-js/stdlib/commit/fd41e1bd1dc6b7c351702bdbf95978b343215b0b) - **feat:** add C `ndarray` API to `blas/ext/base/sfill` [(#2923)](https://github.com/stdlib-js/stdlib/pull/2923) _(by Muhammad Haris, Athan Reines)_
 -   [`d9580f5`](https://github.com/stdlib-js/stdlib/commit/d9580f56677f81425930dad6a0ed65c71f665314) - **refactor:** reduce code duplication in `blas/ext/base/sfill` [(#2916)](https://github.com/stdlib-js/stdlib/pull/2916) _(by Muhammad Haris)_
