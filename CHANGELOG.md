@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2024-12-23)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`f446206`](https://github.com/stdlib-js/stdlib/commit/f4462062a216ceb2131121cbb299525b6b3b17ff) - **feat:** add C `ndarray` API and refactor `blas/ext/base/zfill` [(#2962)](https://github.com/stdlib-js/stdlib/pull/2962) _(by Muhammad Haris, Athan Reines)_
 -   [`9d55639`](https://github.com/stdlib-js/stdlib/commit/9d55639aa76472d280ee6c613cd338ee16552cd6) - **fix:** update C function names in `blas/ext/base/sfill` to prevent name collisions [(#2945)](https://github.com/stdlib-js/stdlib/pull/2945) _(by Muhammad Haris)_
 -   [`fd41e1b`](https://github.com/stdlib-js/stdlib/commit/fd41e1bd1dc6b7c351702bdbf95978b343215b0b) - **feat:** add C `ndarray` API to `blas/ext/base/sfill` [(#2923)](https://github.com/stdlib-js/stdlib/pull/2923) _(by Muhammad Haris, Athan Reines)_
@@ -50,10 +51,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
@@ -75,7 +77,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`ceb4943`](https://github.com/stdlib-js/stdlib/commit/ceb494351d42c2505e559a2c8aad9a120c76d0db) - **docs:** remove comments _(by Athan Reines)_
--   [`a7f3e44`](https://github.com/stdlib-js/stdlib/commit/a7f3e4462eacec13b65535bfe4a39aa57a6a94cc) - **refactor:** update `blas/ext/base/sfill` to follow current projects conventions _(by AgPriyanshu18, Athan Reines, Pranav Goswami, Philipp Burckhardt)_
+-   [`a7f3e44`](https://github.com/stdlib-js/stdlib/commit/a7f3e4462eacec13b65535bfe4a39aa57a6a94cc) - **refactor:** update `blas/ext/base/sfill` to follow current projects conventions _(by Priyanshu Agarwal, Athan Reines, Pranav Goswami, Philipp Burckhardt)_
 
 </details>
 
@@ -89,10 +91,10 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 A total of 4 people contributed to this release. Thank you to the following contributors:
 
--   AgPriyanshu18
 -   Athan Reines
 -   Philipp Burckhardt
 -   Pranav Goswami
+-   Priyanshu Agarwal
 
 </section>
 
