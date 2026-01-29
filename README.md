@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@esm/index.mjs';
+import sfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@v0.3.0-esm/index.mjs';
 ```
 
 #### sfill( N, alpha, x, strideX )
@@ -147,7 +147,7 @@ sfill.ndarray( 3, 5.0, x, 1, x.length-3 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import sfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@esm/index.mjs';
+import sfill from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@v0.3.0-esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float32'
