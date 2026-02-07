@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+sfill = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-sfill/tags). For example,
+
+```javascript
 sfill = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@v0.3.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var sfill = require( 'path/to/vendor/umd/blas-ext-base-sfill/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -169,7 +174,7 @@ sfill.ndarray( 3, 5.0, x, 1, x.length-3 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-sfill@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
